@@ -1,0 +1,15 @@
+{
+  "load_path": {
+    "default": "default/paper_config.json",
+    "cmp": [
+      "envsize/fig-hex/paper_config.json",
+      "envsize/fig-tmaze/paper_config.json",
+      "envsize/fig-suboptima/paper_config.json"
+    ]
+  },
+  "img_position_dict": {
+    "(0, 0)": "paper_img/env/epi5000/HiddenExploreHex_sw10000/envsize_plot_steps-mean_val_over_epi.png",
+    "(0, 1)": "paper_img/env/epi5000/FlaggedExtendedTmazeHidden_sw10000/envsize_plot_steps-mean_val_over_epi.png",
+    "(0, 2)": "paper_img/env/epi1000/SubOptima/envsize_plot_steps-mean_val_over_epi.png"
+  }
+}

@@ -1,0 +1,14 @@
+{
+    "paper_fig_json_path_list": [
+        "paper_fig_02-outline_of_hex.json",
+        "paper_fig_03-outline_of_tmaze.json",
+        "paper_fig_04-outline_of_suboptima.json",
+        "paper_fig-envsize_dependency_return.json",
+        "paper_fig-envsize_dependency_steps.json",
+        "paper_fig-rest_parameter_dependency_return.json",
+        "paper_fig-rest_parameter_dependency_steps.json",
+        "paper_fig-compare_beta_return_by_env.json",
+        "paper_fig-compare_err_return_by_env.json",
+        "paper_fig-compare_tl_return_by_env.json"
+    ]
+}

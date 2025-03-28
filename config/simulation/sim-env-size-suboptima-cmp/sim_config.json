@@ -1,0 +1,51 @@
+{
+  "total_required_sims": 50,
+  "is_save_animdata": false,
+  "cmp_params": {
+    "alpha": null,
+    "beta": null,
+    "gamma": null,
+    "buffer_size": null,
+    "er_ratio": null,
+    "er_deactivate_epis": null,
+    "retrieval_size": null,
+    "trajectory_length": null,
+    "bias_definition": null,
+    "bias_decay_rate": null,
+    "bias_var_power": null,
+    "max_bias_policy_weight": null,
+    "var_bias_policy_weight": null,
+    "batch": null
+  },
+  "cmp_envs": {
+    "suboptima": {
+      "available": [true],
+      "epis": null,
+      "width": [7, 9, 19, 29, 39],
+      "height": [7, 9, 19, 29, 39],
+      "sd": null,
+      "rew_upper": null,
+      "steps_limit": null,
+      "is_render_agt": null
+    },
+    "tmaze_hidden": {
+      "available": [false],
+      "epis": null,
+      "width": null,
+      "height": null,
+      "swap_timing": null,
+      "steps_limit": null,
+      "is_render_agt": null
+    },
+    "hex_hidden": {
+      "available": [false],
+      "epis": null,
+      "width": null,
+      "height": null,
+      "swap_timing": null,
+      "steps_limit": null,
+      "is_render_agt": null
+    }
+  },
+  "cmp_alg_names": ["ER-Q", "LSTM-Q"]
+}

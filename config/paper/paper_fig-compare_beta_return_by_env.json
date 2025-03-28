@@ -1,0 +1,13 @@
+{
+  "load_path": {
+    "default": "default/paper_config.json",
+    "cmp": [
+      "param/fig-beta/paper_config.json"
+    ]
+  },
+  "img_position_dict": {
+    "(0, 0)": "paper_img/param/FlaggedExtendedTmazeHidden_lm100_W7_H5_sw10000/epi5000/beta/param_plot_return-mean_val_over_epi.png",
+    "(0, 1)": "paper_img/param/HiddenExploreHex_lm100_W11_H11_sw10000/epi5000/beta/param_plot_return-mean_val_over_epi.png",
+    "(0, 2)": "paper_img/param/SubOptima_lm100_sd0_rew-upper2/epi1000/beta/param_plot_return-mean_val_over_epi.png"
+  }
+}

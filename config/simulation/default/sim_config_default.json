@@ -1,0 +1,51 @@
+{
+  "total_required_sims": 100,
+  "is_save_animdata": false,
+  "params": {
+    "alpha": [0.01],
+    "beta": [10],
+    "gamma": [0.9],
+    "buffer_size": [7000],
+    "er_ratio": [0.1],
+    "er_deactivate_epis": [20000],
+    "retrieval_size": [30],
+    "trajectory_length": [10],
+    "bias_definition": ["sum_rew"],
+    "bias_decay_rate": [0.95],
+    "bias_var_power": [4.0],
+    "max_bias_policy_weight": [0, 1],
+    "var_bias_policy_weight": [0, 1],
+    "batch": [10]
+  },
+  "envs": {
+    "suboptima": {
+      "available": [true],
+      "epis": [1000],
+      "width": [9],
+      "height": [9],
+      "sd": [0],
+      "rew_upper": [2],
+      "steps_limit": [100],
+      "is_render_agt": [false]
+    },
+    "tmaze_hidden": {
+      "available": [true],
+      "epis": [5000],
+      "width": [7],
+      "height": [5],
+      "swap_timing": [0.5],
+      "steps_limit": [100],
+      "is_render_agt": [false]
+    },
+    "hex_hidden": {
+      "available": [true],
+      "epis": [5000],
+      "width": [11],
+      "height": [11],
+      "swap_timing": [0.5],
+      "steps_limit": [100],
+      "is_render_agt": [false]
+    }
+  },
+  "alg_names": ["ER-Q", "LSTM-Q", "ER-X"]
+}

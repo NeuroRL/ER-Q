@@ -1,0 +1,28 @@
+{
+  "load_path": {
+    "default": "default/sim_config_default.json", 
+    "cmp": [
+      "sim-common-alpha-cmp/sim_config.json",
+      "sim-common-batch-cmp/sim_config.json",
+      "sim-common-beta-cmp/sim_config.json",
+      "sim-common-gamma-cmp/sim_config.json",
+      "sim-env-size-hex-cmp/sim_config.json",
+      "sim-env-size-suboptima-cmp/sim_config.json",
+      "sim-env-size-tmaze-cmp/sim_config.json",
+      "sim-steps_limit-hex-cmp/sim_config.json",
+      "sim-steps_limit-suboptima-cmp/sim_config.json",
+      "sim-steps_limit-tmaze-cmp/sim_config.json",
+      "sim-02-tl_cmp/sim_config.json",
+      "sim-03-rs-cmp/sim_config.json",
+      "sim-04-bdr-cmp/sim_config.json",
+      "sim-05-bvp-cmp/sim_config.json",
+      "sim-07-bs-cmp/sim_config.json",
+      "sim-08-bpw-cmp/sim_config.json",
+      "sim-09-visual/sim_config.json",
+      "sim-10-err-cmp/sim_config.json",
+      "sim-11-ede-hex-cmp/sim_config.json",
+      "sim-11-ede-suboptima-cmp/sim_config.json",
+      "sim-11-ede-tmaze-cmp/sim_config.json"
+    ]
+    }
+}

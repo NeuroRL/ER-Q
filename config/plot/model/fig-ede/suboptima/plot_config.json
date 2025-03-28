@@ -1,0 +1,51 @@
+{
+  "figures_type": "model_figures",
+  "total_required_sims": 10,
+  "cmp_params": {
+    "alpha": null,
+    "beta": null,
+    "gamma": null,
+    "buffer_size": null,
+    "er_ratio": null,
+    "er_deactivate_epis": [0, 1, 5, 10, 50, 100, 200, 500, 800, 900],
+    "retrieval_size": null,
+    "trajectory_length": null,
+    "bias_definition": null,
+    "bias_decay_rate": null,
+    "bias_var_power": null,
+    "max_bias_policy_weight": null,
+    "var_bias_policy_weight": null,
+    "batch": null
+  },
+  "cmp_envs": {
+    "suboptima": {
+      "available": [true],
+      "epis": null,
+      "width": null,
+      "height": null,
+      "sd": null,
+      "rew_upper": null,
+      "steps_limit": null,
+      "is_render_agt": null
+    },
+    "tmaze_hidden": {
+      "available": [false],
+      "epis": null,
+      "width": null,
+      "height": null,
+      "swap_timing": null,
+      "steps_limit": null,
+      "is_render_agt": null
+    },
+    "hex_hidden": {
+      "available": [false],
+      "epis": null,
+      "width": null,
+      "height": null,
+      "swap_timing": null,
+      "steps_limit": null,
+      "is_render_agt": null
+    }
+  },
+  "cmp_alg_names": ["ER-Q"]
+}
