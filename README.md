@@ -1,4 +1,4 @@
-# Overvaluation
+# ER-Q
 
 ## リポジトリ構成
 ```bash
@@ -29,7 +29,7 @@ docs配下の[シミュレーション実施方法](./docs/simulation_config.md)
 
 ## 実行方法
 ```bash
-# Working DIR: ./.../Overvaluation
+# Working DIR: ./.../ER-Q
 
 ./main.sh
 ```
